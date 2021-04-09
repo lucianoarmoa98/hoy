@@ -16,7 +16,7 @@ const DeleteButtonBoard = styled(Icon)`
   position: absolute;
   display: none;
   right: 25px;
-  bottom: 65px;
+  bottom: 50px;
   opacity: 0.5;
   ${BoardContainer}:hover & {
     display: block;
@@ -28,7 +28,7 @@ const DeleteButtonBoard = styled(Icon)`
 `;
 
 const Thumbnail = styled.div`
-  height: 100px;
+  height: 100px auto;
   width: 300px;
   background: #DFE3E6;
   padding: 10px;
@@ -52,12 +52,13 @@ const BoardThumbnail = ({ title }) => {
   return (
     
     <BoardContainer>
-    <Thumbnail>
-      <Title>{title}</Title>
-      <DeleteButtonBoard>
-        delete
-      </DeleteButtonBoard>
-    </Thumbnail>
+      <Thumbnail>
+        <Title>{title}
+          <DeleteButtonBoard>
+            delete
+          </DeleteButtonBoard>
+        </Title>
+      </Thumbnail>
     </BoardContainer>
   );
 };

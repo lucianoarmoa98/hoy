@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 const ListsContainer = styled.div`
   display: flex;
   flex-direction: row;
+  width: max-content;
+  padding: 1em 2em 3em;
 `;
 
 // TODO: Solucionar problema de rendimiento

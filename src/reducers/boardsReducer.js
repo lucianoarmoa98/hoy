@@ -61,7 +61,7 @@ const boardsReducer = (state = initialState, action) => {
       return { ...state, [newID]: newBoard };
     }
 
-
+  
     default:
       return state;
   }

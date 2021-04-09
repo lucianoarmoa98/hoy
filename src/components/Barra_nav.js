@@ -23,9 +23,9 @@ const Barra_nav = () => {
                         </li>
                         <li className="has-subnav">
                             <a href="#">
-                                <i className="fa fa-laptop fa-2x"></i>
+                                <i className="fa fa-users fa-2x"></i>
                                 <span className="nav-text">
-                                    Stars Components
+                                    Usuarios
                                 </span>
                             </a>
 
@@ -34,7 +34,7 @@ const Barra_nav = () => {
                             <a href="#">
                                 <i className="fa fa-list fa-2x"></i>
                                 <span className="nav-text">
-                                    Forms
+                                    Listas
                                 </span>
                             </a>
 
@@ -43,7 +43,7 @@ const Barra_nav = () => {
                             <a href="#">
                                 <i className="fa fa-folder-open fa-2x"></i>
                                 <span className="nav-text">
-                                    Pages
+                                    Documentos
                                 </span>
                             </a>
 
@@ -52,15 +52,15 @@ const Barra_nav = () => {
                             <a href="#">
                                 <i className="fa fa-bar-chart-o fa-2x"></i>
                                 <span className="nav-text">
-                                    Graphs and Statistics
+                                    Estadisticas
                                 </span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className="fa fa-font fa-2x"></i>
+                                <i className="fa fa-calendar fa-2x"></i>
                                 <span className="nav-text">
-                                    Quotes
+                                    Calendario
                                 </span>
                             </a>
                         </li>
@@ -74,9 +74,9 @@ const Barra_nav = () => {
                         </li>
                         <li>
                             <a href="#">
-                                <i className="fa fa-map-marker fa-2x"></i>
+                                <i className="fa fa-envelope fa-2x"></i>
                                 <span className="nav-text">
-                                    Maps
+                                    chat
                                 </span>
                             </a>
                         </li>
@@ -84,7 +84,7 @@ const Barra_nav = () => {
                             <a href="#">
                                 <i className="fa fa-info fa-2x"></i>
                                 <span className="nav-text">
-                                    Documentation
+                                    Informacion
                                 </span>
                             </a>
                         </li>
@@ -95,7 +95,7 @@ const Barra_nav = () => {
                             <a href="#">
                                 <i className="fa fa-power-off fa-2x"></i>
                                 <span className="nav-text">
-                                    Logout
+                                    Cerrar sesion
                                 </span>
                             </a>
                         </li>
